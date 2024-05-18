@@ -37,11 +37,11 @@ body {
 
 .header {
     width: 100vw;
-    border-bottom: 1px solid var(--gray-border);
     height: var(--navbar-height);
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color:var(--background);
 }
 
 .menu__wrapper {
@@ -54,7 +54,6 @@ body {
     width: 100%;
     max-width: 60rem;
     padding: 15px 10px;
-    padding-bottom: 12px;
     align-items: center;
 }
 
